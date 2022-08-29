@@ -38,8 +38,8 @@
 <li>Animação de checkbox.</li>
 <li>Mostrar o número de tarefas criadas, concluídas, e caracteres restantes.</li>
 <li>Conteúdo responsivo.</li>
-<li>Limite de 1000 caracteres.<li>
-<li>Salvar dados no localStorage<li>
+<li>Limite de 1000 caracteres.</li>
+<li>Salvar dados no localStorage</li>
 </ul>
 <br>
 <br>
@@ -54,7 +54,7 @@
 <li>CSS Modules</li>
 <li>HTML5</li>
 <li>CSS3</li>
-<ul>
+</ul>
 <br>
 <br>
 
@@ -65,8 +65,8 @@
 <li>Disable button to create task if there's no content in input.</li>
 <li>Checkbox animation.</li>
 <li>Show how many tasks you've created, completed and the amount of characateres remaining.</li>
-<li>Reponsive content.<li>
-<li>Save data in the localStorage.<li>
+<li>Reponsive content.</li>
+<li>Save data in the localStorage.</li>
 </ul>
 <br>
 <br>
