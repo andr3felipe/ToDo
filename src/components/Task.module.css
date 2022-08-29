@@ -1,0 +1,84 @@
+.divTask {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  width: 46rem;
+  max-width: 100%;
+}
+
+.divAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 4rem;
+
+  max-width: 100%;
+
+  padding: 0 10px;
+
+}
+
+.taskWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divTask div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.divTask div:first-of-type {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.divTask div:first-of-type ~ div {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.divTask span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+
+  height: 1.1875rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.tasks {
+  line-height: 1.4rem;
+  padding: 4rem;
+  text-align: center;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  width: 46rem;
+  max-width: 95vw;
+}
+
+.tasks p:first-of-type {
+  font-weight: 700;
+}
+
+.tasks p ~ p {
+  font-weight: 400;
+}
+
+.tasks img {
+  margin-bottom: 1rem;
+}
+
+

@@ -1,0 +1,117 @@
+.alignInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin-top: -1.6875rem;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.divInput > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.divInput > button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.divInput > input {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  
+  color: var(--gray-300);
+  background-color: var(--gray-500);
+
+  width: 39.875rem;
+  max-width: 100%;
+}
+
+.characteres {
+text-align: center;
+padding: 8px;
+}
+
+.characteres > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.characteres .span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-500);
+  color: var(--blue-dark);
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  border: 1px solid var(--gray-400);
+  font-weight: bold;
+
+  height: 1.1875rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.characteres .spanMinus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-500);
+  color: var(--danger);
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  border: 1px solid var(--gray-400);
+  font-weight: bold;
+
+  height: 1.1875rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.characteres .spanHidden {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-500);
+  color: var(--blue-dark);
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  border: 1px solid var(--gray-400);
+  font-weight: bold;
+
+  height: 1.1875rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+
+  visibility: hidden;
+}
+
+@media (max-width: 360px){
+  .divInput > input {
+    max-width: 65vw;
+  }
+}
