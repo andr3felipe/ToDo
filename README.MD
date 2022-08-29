@@ -25,7 +25,7 @@
 <li>CSS Modules</li>
 <li>HTML5</li>
 <li>CSS3</li>
-<ul>
+</ul>
 <br>
 <br>
 
@@ -38,9 +38,9 @@
 <li>Animação de checkbox.</li>
 <li>Mostrar o número de tarefas criadas, concluídas, e caracteres restantes.</li>
 <li>Conteúdo responsivo.</li>
-<li>Limite de 1000 caracteres.
+<li>Limite de 1000 caracteres.<li>
 <li>Salvar dados no localStorage<li>
-<ul>
+</ul>
 <br>
 <br>
 
@@ -59,25 +59,26 @@
 <br>
 
 ### FEATURES
-<p>Create and delete tasks.</p>
-<p>Mark task as completed.</p>
-<p>Disable button to create task if there's no content in input.</p>
-<p>Checkbox animation.</p>
-<p>Show how many tasks you've created, completed and the amount of characateres remaining.</p>
-<li>Reponsive content<li>
-<li>Save data in the localStorage<li>
+<ul>
+<li>Create and delete tasks.</li>
+<li>Mark task as completed.</p>
+<li>Disable button to create task if there's no content in input.</li>
+<li>Checkbox animation.</li>
+<li>Show how many tasks you've created, completed and the amount of characateres remaining.</li>
+<li>Reponsive content.<li>
+<li>Save data in the localStorage.<li>
+</ul>
 <br>
 <br>
 
 ### LINK TO TEST THE PROJECT
 <a href="https://vermillion-raindrop-2f3578.netlify.app/">IGNITE PROJECT</a>
-<br>
-<br>
+
 
 
 # YOUTUBE VIDEO
 #### Clique na imagem para assitir no youtube! 
 #### Click in the image to watch on youtube!
 
-[<img src="https://github.com/andr3felipe/Projeto-Ignite/blob/main/src/assets/ignite-youtube.png" width="50%">](https://www.youtube.com/watch?v=ShNltl0yG3Q "Click to watch in youtube")
+[<img src="https://github.com/andr3felipe/ToDo/blob/main/src/assets/ToDo.png" width="50%">](https://www.youtube.com/watch?v=ShNltl0yG3Q "Click to watch in youtube")
 
