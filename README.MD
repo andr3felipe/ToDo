@@ -66,6 +66,7 @@
 <li>Checkbox animation.</li>
 <li>Show how many tasks you've created, completed and the amount of characateres remaining.</li>
 <li>Reponsive content.</li>
+<li>Limit of 1000 letters.</li>
 <li>Save data in the localStorage.</li>
 </ul>
 <br>
